@@ -1,2 +1,2 @@
 # wordleApp
-web app wordle clone
+This small project is a Worlde App clone. The app generates a word from an API, and allows the user to enter five letter entries to replicate wordle. If a correct letter is guessed it is marked either green if the letter is in the right spot or yellow if the letter is in the wrong location. These are also reflected in the keyboard included on the bottom of the app. If an incorrect letter is displayed, then it is highlighted in red. Current implementation does not check if valid words are guessed, as well as some words fetched from API can be NSFW. 
