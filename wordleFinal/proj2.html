@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
+    </script>
+    <link rel = "stylesheet" href="proj2.css">
+    
+</head>
+
+<body>
+    <h1>Proj2: Wordle!</h1>
+    <div class="container">
+        <div class="row" id="row1">
+            <div class="box" id="r1c1"></div>
+            <div class="box" id="r1c2"></div>
+            <div class="box" id="r1c3"></div>
+            <div class="box" id="r1c4"></div>
+            <div class="box" id="r1c5"></div>
+        </div>
+        <div class="row" id="row2">
+            <div class="box" id="r2c1"></div>
+            <div class="box" id="r2c2"></div>
+            <div class="box" id="r2c3"></div>
+            <div class="box" id="r2c4"></div>
+            <div class="box" id="r2c5"></div>
+        </div>
+        <div class="row" id="row3">
+            <div class="box" id="r3c1"></div>
+            <div class="box" id="r3c2"></div>
+            <div class="box" id="r3c3"></div>
+            <div class="box" id="r3c4"></div>
+            <div class="box" id="r3c5"></div>
+        </div>
+        <div class="row" id="row4">
+            <div class="box" id="r4c1"></div>
+            <div class="box" id="r4c2"></div>
+            <div class="box" id="r4c3"></div>
+            <div class="box" id="r4c4"></div>
+            <div class="box" id="r4c5"></div>
+        </div>
+        <div class="row" id="row5">
+            <div class="box" id="r5c1"></div>
+            <div class="box" id="r5c2"></div>
+            <div class="box" id="r5c3"></div>
+            <div class="box" id="r5c4"></div>
+            <div class="box" id="r5c5"></div>
+        </div>
+        <div class="row" id="row6">
+            <div class="box" id="r6c1"></div>
+            <div class="box" id="r6c2"></div>
+            <div class="box" id="r6c3"></div>
+            <div class="box" id="r6c4"></div>
+            <div class="box" id="r6c5"></div>
+        </div>
+        <div class="inputBox">
+            <input type="text" id="inputBox" placeholder="Enter a 5-letter word!">
+            <button id="checkWord">Check Word</button>
+            <button id="restart">Reset</button>
+        </div>
+        <div class="usedLetterBoard" id="usedLetterBoard">
+            <div class="row" id="row7">
+                <div class="usedLetterBox" id="letterq">Q</div>
+                <div class="usedLetterBox" id="letterw">W</div>
+                <div class="usedLetterBox" id="lettere">E</div>
+                <div class="usedLetterBox" id="letterr">R</div>
+                <div class="usedLetterBox" id="lettert">T</div>
+                <div class="usedLetterBox" id="lettery">Y</div>
+                <div class="usedLetterBox" id="letteru">U</div>
+                <div class="usedLetterBox" id="letteri">I</div>
+                <div class="usedLetterBox" id="lettero">O</div>
+                <div class="usedLetterBox" id="letterp">P</div>
+            </div>
+            <div class="row" id="row8">
+                <div class="usedLetterBox" id="lettera">A</div>
+                <div class="usedLetterBox" id="letters">S</div>
+                <div class="usedLetterBox" id="letterd">D</div>
+                <div class="usedLetterBox" id="letterf">F</div>
+                <div class="usedLetterBox" id="letterg">G</div>
+                <div class="usedLetterBox" id="letterh">H</div>
+                <div class="usedLetterBox" id="letterj">J</div>
+                <div class="usedLetterBox" id="letterk">K</div>
+                <div class="usedLetterBox" id="letterl">L</div>
+            </div>
+            <div class="row" id="row9">
+                <div class="usedLetterBox" id="letterz">Z</div>
+                <div class="usedLetterBox" id="letterx">X</div>
+                <div class="usedLetterBox" id="letterc">C</div>
+                <div class="usedLetterBox" id="letterv">V</div>
+                <div class="usedLetterBox" id="letterb">B</div>
+                <div class="usedLetterBox" id="lettern">N</div>
+                <div class="usedLetterBox" id="letterm">M</div>
+            </div>
+        </div>
+
+    </div>
+    <script src = "proj2.js"></script>
+</body>
+</html>
